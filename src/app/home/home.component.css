@@ -1,0 +1,151 @@
+   /*.sec{
+    background: url('src/assets/img/mainBackground.jpg') no-repeat;
+    background-size: cover;
+    height: calc(200vh - 80px);
+ height: 521px;
+    width: 100%;
+   }*/
+
+/*
+
+<section class="container" >
+    <div class="secction" >
+    <h1  class="h1-head"> 
+        <p >
+          "Measuring programming progress by lines of  <br>
+          code is like measuring  aircraft building <br>
+         progress by weight".<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;-Bill Gates
+          </p>
+   </h1>
+ </div>
+</section>
+
+
+.container{
+   background: url('src/assets/img/Background.jpg') no-repeat;
+   background-size: cover;
+   height: 600px;
+   object-fit: cover;
+   color:#fff;
+   line-height: 80px;
+   width: 100%;
+   
+}
+.section{
+   flex-shrink: 0;
+   flex-grow: 0;
+   padding: 0;
+   margin: 0;
+   height: 600px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+   position: absolute;
+   justify-content: center;
+}
+
+.h1-head{
+   padding-right: 30px;
+   padding-top: 70px;
+   text-align: right;
+   font-size: 40px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}*/
+
+
+
+ .back{
+  background: url('src/assets/img/Background.jpg') no-repeat;
+  background-size: cover;
+  justify-content: right;
+  justify-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px  auto;
+  
+ }
+
+ .box{
+   width: 33vw;
+   background: rgba(0, 0, 0, 0.4);
+   padding: 40px;
+   justify-content:  center;
+   justify-items: center;
+   text-align: center;
+   
+   margin: 80px auto;
+  
+   height:calc(100vh - 200px);
+   padding-bottom: 0px ;
+   color: white;
+
+   font-family: 'Times New Roman', Times, serif;
+   overflow: scroll;
+   overflow-x: hidden;
+
+
+ }
+
+ ::-webkit-scrollbar {
+   width: 0px;  /* Remove scrollbar space */
+   background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+   background: #FF0000;
+}
+ .box-img{
+   background: url('src/assets/img/about1.jpg') no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+   align-self: center;
+   justify-content: center;
+   justify-items: center;
+   max-width: 27vw;
+   max-height: 26vh;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+   margin-top: 8px;
+   padding-bottom: 20px;
+ }
+ .box h1{
+   padding-top: 9px;
+   font-size: 40px;
+   letter-spacing: 4px;
+   font-weight: 10;
+ }
+ .box h5{
+   padding-top: 7px;
+   font-size: 23px;
+   letter-spacing: 3px;
+   font-weight: 10;
+ }
+ .box p{
+
+   text-align: justify;
+   padding-top: 5px;
+   font-size: 16px;
+   line-height: 20px;
+ }
+ 
+ .btn {
+   display: inline-flex;
+   color: #fff;
+   height: 27px;
+   justify-content: center;
+   text-align: center;
+   line-height: 28px;
+   font-size: 20px;
+   
+   text-decoration: none;
+   padding-top: 15px;
+   justify-content: space-around;
+   flex-flow: wrap;
+ }
+ 
+ 

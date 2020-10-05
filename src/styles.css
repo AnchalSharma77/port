@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sectionWhite{
+    
+    height: 590px;
+    width: 100%;
+    background: #fff;
+    color: #0375b4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+
+.h1-heading{
+    max-width: 85%;
+    width: 100%;
+    text-overflow: clip;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 120px ;
+   
+}
+
+
+
+.text{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.08rem;
+}

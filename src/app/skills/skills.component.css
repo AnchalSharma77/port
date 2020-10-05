@@ -1,0 +1,83 @@
+.head{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 24px;
+    color: #1d36a1;
+
+}
+
+section .skill{
+    display: grid;
+    grid-gap:55px;
+    padding: 16px;
+    max-width: 1024px;
+    margin: auto;
+    padding-bottom: 55px;
+    
+}
+
+@media screen and (min-width: 600px){
+    .skill{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .skill{
+        grid-template-columns: 1fr;
+    }
+}
+
+.skill .set{
+    background-color: #ffffff;
+    padding: 24px;
+    border: 1px solid rgb(152, 188, 241);
+    border-radius: 16px;
+    cursor: pointer;
+   
+}
+
+.skill .set:hover{
+    box-shadow: 0px 12px 16px #49b0ec;
+}
+
+.set span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+    background: linear-gradient(to right, #0fb2fd, #0d09ec);
+    color: #ffffff;
+    border-radius: 35%;
+    margin-inline-end:auto ;
+    margin-left: auto;
+}
+
+.set header{
+    padding-block-end: 24px;
+    padding-block-start: 15px;
+    font-size: 24px;
+    color: #0e1da5 ;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list{
+    padding-block-end: 8px;
+    padding-left: 15px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 28px;
+    color: rgb(74, 111, 167);
+    text-transform: uppercase;
+    margin-left: auto;
+
+}
+
+.set:hover .list{
+    color: rgb(74, 111, 167);
+}
