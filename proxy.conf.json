@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "https://anchalsharma77.github.io",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite":{
+            "^/api": ""
+        }
+    }
+}
